@@ -37,31 +37,11 @@ export default function Footer() {
         </Text>
       </Text>
       <List display='flex'>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link
-            fontWeight='500'
-            color={textColor}
-            href='mailto:hello@simmmple.com'>
-            Support
-          </Link>
+        <ListItem me={{ base: "20px", md: "44px", }}>
+          <Link fontWeight='500' color={textColor} href='mailto:binarybots04@gmail.com'> Support </Link>
         </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-        </ListItem>
-        <ListItem>
+        <ListItem me={{ base: "20px", md: "44px", }}>
+          <Link fontWeight='500' color={textColor} href='mailto:binarybots04@gmail.com'> Contact Us </Link>
         </ListItem>
       </List>
     </Flex>
