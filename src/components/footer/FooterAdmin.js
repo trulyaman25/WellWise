@@ -36,15 +36,7 @@ export default function Footer() {
         {" "}
         &copy; {1900 + new Date().getYear()}
         <Text as='span' fontWeight='500' ms='4px'>
-          HealthBot. All Rights Reserved.
-          <Link
-            mx='3px'
-            color={textColor}
-            href='https://www.simmmple.com?ref=horizon-chakra-free'
-            target='_blank'
-            fontWeight='700'>
-            VitalCare
-          </Link>
+          Well Wise All Rights Reserved by Binary Bots
         </Text>
       </Text>
       <List display='flex'>
