@@ -26,17 +26,14 @@ export default function Footer() {
       justifyContent='space-between'
       px={{ base: "30px", md: "50px" }}
       pb='30px'>
-      <Text
-        color={textColor}
+      <Text color={textColor}
         textAlign={{
           base: "center",
           xl: "start",
         }}
         mb={{ base: "20px", xl: "0px" }}>
-        {" "}
-        &copy; {1900 + new Date().getYear()}
         <Text as='span' fontWeight='500' ms='4px'>
-          Well Wise All Rights Reserved by Binary Bots
+          Copyright © 2024 All rights reserved by the Team Binary Bots ❤️
         </Text>
       </Text>
       <List display='flex'>
